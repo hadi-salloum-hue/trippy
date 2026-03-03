@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+
+    &.revers {
+        flex-direction: row-reverse;
+    }
+
+    .text {
+        width: 49%;
+
+        h2 {
+            padding-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            text-align: start;
+        }
+    }
+
+    .images {
+
+        width: 49%;
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            width: 49%;
+            border-radius: 6px;
+            box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, .19);
+            height: 422px;
+            object-fit: cover;
+            &:last-child{
+                transform: translateY(-20px);
+            }
+        }
+    }
+}

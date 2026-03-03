@@ -1,0 +1,12 @@
+section {
+    .tilte {
+        font-size: 3rem;
+        width: max-content;
+        margin: 0 auto;
+    }
+
+    .subtilte {
+        width: max-content;
+        margin: 0 auto;
+    }
+}
