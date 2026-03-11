@@ -19,14 +19,14 @@ function App() {
     {
       title: "Mt. Daguldul, Batangas",
       description: "One of the most iconic views in luzon, Mt. Taal boosts a Volcano inside a lake inside an island. If you fancy a closer look, the hike up to the crater is a mere 45 minutes, and is easy enough for beginners. Guides will assist you most of the way, and you'll see the peculiar environment found on an active volcano, including volcanic rocks and steam vents. The hike can be dusty and hot, so plan for an early morning trip, and then unwind with some bulalo before heading back home!",
-      firstImg: "./assets/img/img1.jpg",
-      secondImg: "./assets/img/img2.jpg",
+      firstImg: "./trippy/assets/img/img1.jpg",
+      secondImg: "./trippy/assets/img/img2.jpg",
     },
     {
       title: "Taal Volcano, Batangas",
       description: "A nice trek in southern Batangas is the coastal mountain of San Juan, Mt. Daguldul. The name ‘Daguldul’ or ‘Daguldol’ has been used since olden days. It has an onomatopoeic feeling – that of suspense and grandness. Maybe it describes the grandeur of the range and the abrupt rolling of its slopes.Actually a small mountain range, Mt. Daguldul has several ‘gems’ to offer. First, there is the unique seascape that greets the hiker on the intial beach trail. Then, there is trail, moderate in difficulty, passing by woodlands and light forests. In some parts, the greenery is total.",
-      firstImg: "./assets/img/img3.jpg",
-      secondImg: "./assets/img/img4.jpg",
+      firstImg: "./trippy/assets/img/img3.jpg",
+      secondImg: "./trippy/assets/img/img4.jpg",
       revers: true,
     }
   ]
@@ -39,7 +39,7 @@ function App() {
       />
 
       <Hero
-        bgImage="/assets/img/HreoBgImg.jpg"
+        bgImage="/trippy/assets/img/HreoBgImg.jpg"
         title="Your Journey Your Story"
         description="Choose Your Favourite Destination."
         btn="Travel Now"
